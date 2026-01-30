@@ -20,9 +20,11 @@ export default function Footer() {
       >
         <div className="grid md:grid-cols-2 gap-12 mb-12">
           <div>
-            <div className="pixel-text text-3xl font-bold mb-6">
-              VISIONARY
-            </div>
+            <img
+              src="/assets/logo.png"
+              alt="Visionary Logo"
+              className="w-24 h-22 mb-6"
+            />
             <p className="text-gray-400 text-sm max-w-md">
               Pioneering the future of human-computer interaction through gesture recognition technology.
             </p>
