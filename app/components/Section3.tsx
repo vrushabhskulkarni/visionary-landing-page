@@ -46,9 +46,9 @@ export default function Section3() {
           }`}
         >
           <img
-            src="/assets/hand.png"
+            src="/assets/hand-from-angle.png"
             alt="Hand gesture control"
-            className="w-full max-w-sm mx-auto"
+            className="w-full max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-5xl mx-auto "
           />
         </div>
       </div>
