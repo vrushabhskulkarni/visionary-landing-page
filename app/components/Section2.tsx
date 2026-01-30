@@ -1,9 +1,9 @@
-'use client'
+"use client";
 
-import { useScrollReveal } from './useScrollReveal'
+import { useScrollReveal } from "./useScrollReveal";
 
 export default function Section2() {
-  const { ref, isVisible } = useScrollReveal()
+  const { ref, isVisible } = useScrollReveal();
 
   return (
     <section
@@ -15,8 +15,8 @@ export default function Section2() {
         <div
           className={`transition-all duration-1000 ${
             isVisible
-              ? 'opacity-100 translate-x-0'
-              : 'opacity-0 -translate-x-10'
+              ? "opacity-100 translate-x-0"
+              : "opacity-0 -translate-x-10"
           }`}
         >
           <h2 className="text-5xl md:text-6xl lg:text-7xl font-light mb-6 leading-tight">
@@ -30,18 +30,20 @@ export default function Section2() {
         {/* Right side - Ring Image */}
         <div
           className={`transition-all duration-1000 delay-300 ${
-            isVisible
-              ? 'opacity-100 translate-x-0'
-              : 'opacity-0 translate-x-10'
+            isVisible ? "opacity-100 translate-x-0" : "opacity-0 translate-x-10"
           }`}
         >
           <img
             src="/assets/orbital-ring.png"
             alt="Orbital Ring"
             className="w-full max-w-md mx-auto"
+            style={{
+              transform: "rotateY(-18deg) rotateZ(-50deg)",
+              transformStyle: "preserve-3d",
+            }}
           />
         </div>
       </div>
     </section>
-  )
+  );
 }
