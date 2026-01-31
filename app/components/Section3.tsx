@@ -8,7 +8,7 @@ export default function Section3() {
   return (
     <section
       ref={ref}
-      className="min-h-screen flex items-center justify-center relative px-6 py-20"
+      className="min-h-screen flex items-center justify-center relative px-6 py-20 overflow-hidden"
     >
       <div className="max-w-7xl mx-auto w-full grid md:grid-cols-2 gap-12 items-center">
         {/* Left side - Text */}
@@ -39,16 +39,19 @@ export default function Section3() {
 
         {/* Right side - Hand Image */}
         <div
-          className={`transition-all duration-1000 delay-300 ${
+          className={`transition-all duration-1000 delay-300 ease-out ${
             isVisible
-              ? 'opacity-100 translate-x-0'
-              : 'opacity-0 translate-x-10'
+              ? 'opacity-100 translate-x-0 scale-100'
+              : 'opacity-0 translate-x-[150%] scale-150'
           }`}
+          style={{
+            transformOrigin: 'right center',
+          }}
         >
           <img
             src="/assets/hand-from-angle.png"
             alt="Hand gesture control"
-            className="w-full max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-5xl mx-auto "
+            className="w-full scale-[1.6] origin-center"
           />
         </div>
       </div>

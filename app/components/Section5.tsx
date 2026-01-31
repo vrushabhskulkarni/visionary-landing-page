@@ -36,7 +36,7 @@ export default function Section5() {
           }`}
         >
           <img
-            src="/assets/hand.png"
+            src="/assets/wrist-hand.png"
             alt="Hand Gesture"
             className="w-full max-w-sm mx-auto"
           />
