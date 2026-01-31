@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <main className="relative">
       <StarField />
-      <Navigation />
+     
       <HeroSection />
       <Section2 />
       <Section3 />

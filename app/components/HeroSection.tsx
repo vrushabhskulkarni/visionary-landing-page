@@ -9,7 +9,7 @@ export default function HeroSection() {
     <section
       id="home"
       ref={ref}
-      className="min-h-screen flex flex-col items-center justify-center relative px-6 pt-20 md:pt-24 lg:pt-60"
+      className="min-h-screen flex flex-col items-center justify-center relative px-6 pt-20 md:pt-22 lg:pt-40"
     >
       <div
         className={`transition-all duration-1000 ${

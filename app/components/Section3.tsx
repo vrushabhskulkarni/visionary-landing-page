@@ -28,10 +28,16 @@ export default function Section3() {
           <p className="text-gray-400 text-base mb-8">
             Simulated using computer vision.
           </p>
-          
-          <button className="px-8 py-3 border border-white hover:bg-white hover:text-black transition-all duration-300 text-sm tracking-wider">
+
+          <a
+            href="https://demo.visionry.in/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block px-8 py-3 border border-white hover:bg-white hover:text-black transition-all duration-300 text-sm tracking-wider"
+          >
             Try the Demo
-          </button>
+          </a>
+
           <p className="text-gray-500 text-xs mt-3">
             (This demo uses computer vision locally — no video is recorded or uploaded.)
           </p>

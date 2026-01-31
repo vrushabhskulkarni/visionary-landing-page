@@ -30,7 +30,7 @@ export default function Footer() {
             </p>
           </div>
 
-          <div className="flex flex-col gap-4">
+          {/* <div className="flex flex-col gap-4">
             <a href="#home" className="text-lg hover:text-gray-400 transition-colors">
               Home
             </a>
@@ -40,7 +40,7 @@ export default function Footer() {
             <a href="#company" className="text-lg hover:text-gray-400 transition-colors">
               Company
             </a>
-          </div>
+          </div> */}
         </div>
 
         <div className="border-t border-gray-800 pt-8">
